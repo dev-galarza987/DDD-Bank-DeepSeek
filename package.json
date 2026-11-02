@@ -1,0 +1,27 @@
+{
+  "name": "ddd-bank-claude",
+  "version": "1.0.0",
+  "description": "Modelado de dominio con DDD sector Banca.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "dev": "tsx ./src/main.ts",
+    "test": "vitest",
+    "lint": "biome",
+    "check": "npx tsc --noEmit"
+  },
+  "keywords": [
+    "DDD",
+    "NodeJS",
+    "TypeScript"
+  ],
+  "author": "Victor H. Galarza J.",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
